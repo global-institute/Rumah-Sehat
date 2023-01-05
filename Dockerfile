@@ -20,6 +20,6 @@ LABEL   MAINTENER="Muhammad Saepudin" \
         NIM="1121130068" \
         KELAS="TI SE SH 2021"
 
-COPY html /usr/share/nginx/html
+COPY html /usr/share/nginx/UAS
 
 EXPOSE 80 443
