@@ -4,7 +4,7 @@ LABEL   MAINTENER="Alfian Aditya Ramadhan" \
         NIM="1121130018" \
         KELAS="TI CN SH 2021"
 
-LABEL   MAINTENER="M. Arief Lukman" \
+LABEL   MAINTENER="M.. Arief Lukman" \
         NIM="1121130135" \
         KELAS="TI SE SH 2021"
 
