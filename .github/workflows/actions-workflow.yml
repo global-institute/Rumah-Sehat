@@ -8,10 +8,10 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: build and tag image 
-      run: docker build -t alfiandtya25/rumahsehat:v1 -f Dockerfile .
+      run: docker build -t irwanituwawan06/rumahsehat:v1 -f Dockerfile .
     
     - name: push to dockerhub
-      run: docker login -u ${{secrets.DOCKERHUB_USERNAME}} -p ${{secrets.DOCKERHUB_SECRET}} && docker push alfiandtya25/rumahsehat:v1
+      run: docker login -u ${{secrets.DOCKERHUB_USERNAME}} -p ${{secrets.DOCKERHUB_SECRET}} && docker push irwanituwawan06/rumahsehat:v1
 
 
      
